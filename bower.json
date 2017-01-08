@@ -1,0 +1,17 @@
+{
+  "name": "word-checker-testing",
+  "homepage": "https://github.com/lukewalt/word-checker-testing",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
