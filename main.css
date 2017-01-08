@@ -17,4 +17,16 @@ textarea {
     font-family: 'Glegoo', serif;
     font-weight: bold;
     font-size: 2em;
+    outline: none;
+
+}
+
+#userSubmit {
+    height: 50px;
+    width: 500px;
+    font-family: 'Glegoo', serif;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 50px;
+    outline: none;
 }
