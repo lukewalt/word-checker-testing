@@ -39,11 +39,16 @@ function duplicateCheck() {
 };
 
 // There should be a function defined with the name verifyAlphaNumeric.
-function verifyAlphaNumeric(){
+function verifyAlphaNumeric(input){
     // That function should return false if there are any non-alphanumeric characters in a string.
-
-
+    var nonAlphanumeric = input.match(/[^a-zA-Z\d\s\.]/g)
+    if (nonAlphanumeric) {
+        return false;
+    } else {
+        return true;
+    }
 };
+
 
 
 // Now that the test suite exists, write a simple application to implement the functionality.
