@@ -3,8 +3,18 @@ body {
     text-align: center;
 }
 
+h1 {
+    margin: 4% 0;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 5em;
+}
+
 textarea {
-    margin: 5% 0;
+    margin: 1.5% 0;
+    padding: 3%;
     text-align: center;
     border: 10px dotted lightblue;
+    font-family: 'Glegoo', serif;
+    font-weight: bold;
+    font-size: 2em;
 }
