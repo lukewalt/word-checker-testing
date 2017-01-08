@@ -1,3 +1,10 @@
 body {
-    background-color: red;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+textarea {
+    margin: 5% 0;
+    text-align: center;
+    border: 10px dotted lightblue;
 }
